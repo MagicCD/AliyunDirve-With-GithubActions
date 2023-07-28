@@ -15,7 +15,7 @@ jobs:
           REFRESH_TOKENS: ${{ secrets.REFRESH_TOKENS }}
           GP_TOKEN: ${{ secrets.GP_TOKEN}}
           # 推送渠道为WebHook
-          PUSH_TYPES: 'WebHook'
+          PUSH_TYPES: 'WEBHOOK'
           # 开启仅签到，不领取奖励
           DO_NOT_REWARD: 'true'
           SERVERCHAN_SEND_KEY: ${{ secrets.SERVERCHAN_SEND_KEY }}
